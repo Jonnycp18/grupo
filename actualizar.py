@@ -4,5 +4,3 @@ def actualizar_producto(inventario, producto, cantidad):
         inventario[producto] = cantidad
     else:
         print(f"Error: El producto '{producto}' no existe en el inventario.")
-
-
